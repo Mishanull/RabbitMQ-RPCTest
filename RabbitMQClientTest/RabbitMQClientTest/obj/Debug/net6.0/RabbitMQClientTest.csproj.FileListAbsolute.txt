@@ -1,0 +1,17 @@
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\bin\Debug\net6.0\RabbitMQClientTest.exe
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\bin\Debug\net6.0\RabbitMQClientTest.deps.json
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\bin\Debug\net6.0\RabbitMQClientTest.runtimeconfig.json
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\bin\Debug\net6.0\RabbitMQClientTest.dll
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\bin\Debug\net6.0\RabbitMQClientTest.pdb
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\obj\Debug\net6.0\RabbitMQClientTest.csproj.AssemblyReference.cache
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\obj\Debug\net6.0\RabbitMQClientTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\obj\Debug\net6.0\RabbitMQClientTest.AssemblyInfoInputs.cache
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\obj\Debug\net6.0\RabbitMQClientTest.AssemblyInfo.cs
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\obj\Debug\net6.0\RabbitMQClientTest.csproj.CoreCompileInputs.cache
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\obj\Debug\net6.0\RabbitMQClientTest.csproj.CopyComplete
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\obj\Debug\net6.0\RabbitMQClientTest.dll
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\obj\Debug\net6.0\refint\RabbitMQClientTest.dll
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\obj\Debug\net6.0\RabbitMQClientTest.pdb
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\obj\Debug\net6.0\RabbitMQClientTest.genruntimeconfig.cache
+C:\Programming\Prison-System\PresentationTier\RabbitMQClientTest\RabbitMQClientTest\obj\Debug\net6.0\ref\RabbitMQClientTest.dll

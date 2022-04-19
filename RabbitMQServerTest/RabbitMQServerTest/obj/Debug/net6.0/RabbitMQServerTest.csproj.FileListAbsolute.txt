@@ -1,0 +1,17 @@
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\bin\Debug\net6.0\RabbitMQServerTest.exe
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\bin\Debug\net6.0\RabbitMQServerTest.deps.json
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\bin\Debug\net6.0\RabbitMQServerTest.runtimeconfig.json
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\bin\Debug\net6.0\RabbitMQServerTest.dll
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\bin\Debug\net6.0\RabbitMQServerTest.pdb
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\obj\Debug\net6.0\RabbitMQServerTest.csproj.AssemblyReference.cache
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\obj\Debug\net6.0\RabbitMQServerTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\obj\Debug\net6.0\RabbitMQServerTest.AssemblyInfoInputs.cache
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\obj\Debug\net6.0\RabbitMQServerTest.AssemblyInfo.cs
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\obj\Debug\net6.0\RabbitMQServerTest.csproj.CoreCompileInputs.cache
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\obj\Debug\net6.0\RabbitMQServerTest.csproj.CopyComplete
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\obj\Debug\net6.0\RabbitMQServerTest.dll
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\obj\Debug\net6.0\refint\RabbitMQServerTest.dll
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\obj\Debug\net6.0\RabbitMQServerTest.pdb
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\obj\Debug\net6.0\RabbitMQServerTest.genruntimeconfig.cache
+C:\Programming\Prison-System\PresentationTier\RabbitMQServerTest\RabbitMQServerTest\obj\Debug\net6.0\ref\RabbitMQServerTest.dll
