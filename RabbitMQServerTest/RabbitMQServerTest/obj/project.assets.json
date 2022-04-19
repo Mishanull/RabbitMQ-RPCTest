@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programming\\Prison-System\\PresentationTier\\RabbitMQServerTest\\RabbitMQServerTest\\RabbitMQServerTest.csproj",
+      "projectUniqueName": "C:\\Users\\Mihai\\Desktop\\rabbitmqtest\\RabbitMQServerTest\\RabbitMQServerTest\\RabbitMQServerTest.csproj",
       "projectName": "RabbitMQServerTest",
-      "projectPath": "C:\\Programming\\Prison-System\\PresentationTier\\RabbitMQServerTest\\RabbitMQServerTest\\RabbitMQServerTest.csproj",
+      "projectPath": "C:\\Users\\Mihai\\Desktop\\rabbitmqtest\\RabbitMQServerTest\\RabbitMQServerTest\\RabbitMQServerTest.csproj",
       "packagesPath": "C:\\Users\\Mihai\\.nuget\\packages\\",
-      "outputPath": "C:\\Programming\\Prison-System\\PresentationTier\\RabbitMQServerTest\\RabbitMQServerTest\\obj\\",
+      "outputPath": "C:\\Users\\Mihai\\Desktop\\rabbitmqtest\\RabbitMQServerTest\\RabbitMQServerTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

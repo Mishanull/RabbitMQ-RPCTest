@@ -7,9 +7,9 @@ using RabbitMQClientTest;
             
 do
 {
-    var rpcClient = new RpcClient("prison.users");
-    Console.WriteLine(" [x] Requesting message");
-    var response = rpcClient.Call("message");
+    var rpcClient = new RpcClient("q.test");
+    Console.WriteLine(" [x] Requesting...");
+    var response = rpcClient.Call("Hello to server!");
 
     Console.WriteLine(" [.] Got '{0}'", response);
     rpcClient.Close();

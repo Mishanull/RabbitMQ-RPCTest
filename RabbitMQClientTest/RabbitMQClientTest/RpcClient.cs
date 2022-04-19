@@ -31,27 +31,28 @@ public class RpcClient
         props = channel.CreateBasicProperties();
         var correlationId = Guid.NewGuid().ToString();
         props.CorrelationId = correlationId;
-
+        var replyQueue =channel.QueueDeclare().QueueName;
+        props.ReplyTo = replyQueue;
         consumer.Received += (model, ea) =>
         {
             var body = ea.Body;
             var response = Encoding.UTF8.GetString(body.ToArray());
+            replyQueue += ea.BasicProperties.ReplyTo;
             if (ea.BasicProperties.CorrelationId == correlationId)
             {
                 respQueue.Add(response);
             }
         };
+        channel.BasicConsume(
+            consumer: consumer,
+            queue:replyQueue ,
+            autoAck: true);
     }
 
     public string Call(string message)
     {
         var messageBytes = Encoding.UTF8.GetBytes(message);
-
-        channel.BasicConsume(
-            consumer: consumer,
-            queue: "prison.users.reply",
-            autoAck: true);
-
+        
         channel.BasicPublish(
             exchange: "",
             routingKey: queueName,

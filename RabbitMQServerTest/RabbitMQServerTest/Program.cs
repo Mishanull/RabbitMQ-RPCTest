@@ -4,7 +4,6 @@ using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
-using Entities;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
@@ -12,12 +11,11 @@ var factory = new ConnectionFactory() { HostName = "localhost" };
 using (var connection = factory.CreateConnection())
 using (var channel = connection.CreateModel())
 {
-    channel.QueueDeclare(queue: "login.queue", durable: false,
+    channel.QueueDeclare(queue: "q.test", durable: false,
         exclusive: false, autoDelete: false, arguments: null);
     channel.BasicQos(0, 1, false);
     var consumer = new EventingBasicConsumer(channel);
-    channel.BasicConsume(queue: "login.queue",
-        autoAck: false, consumer: consumer);
+    
     Console.WriteLine(" [x] Awaiting RPC requests");
 
     consumer.Received += (model, ea) =>
@@ -32,8 +30,8 @@ using (var channel = connection.CreateModel())
         try
         {
             var message = Encoding.UTF8.GetString(body);
-            Console.WriteLine(" [.] user({0})", message);
-            response = JsonSerializer.Serialize(getUser());
+            Console.WriteLine(" [.] msg({0})", message);
+            response = JsonSerializer.Serialize("Received message from client: "+message+". Hello there!");
         }
         catch (Exception e)
         {
@@ -49,21 +47,10 @@ using (var channel = connection.CreateModel())
                 multiple: false);
         }
     };
-
+    channel.BasicConsume(queue: "q.test",
+        autoAck: false, consumer: consumer);
     Console.WriteLine(" Press [enter] to exit.");
     Console.ReadLine();
     
 }
 
-User getUser()
-{
-    User user = new User
-    {
-        FirstName = "Mihai",
-        Id = 1,
-        LastName = "Avram",
-        Password = "12345",
-        Username = "mike"
-    };
-    return user;
-}
